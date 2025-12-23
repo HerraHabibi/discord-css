@@ -1,3 +1,5 @@
+/* -- OLD DISCORD TAGS -- */
+
 [class*='base_'] [class*='page_'] [class*='nowPlayingColumn_'] [class*='itemCard_'] [class*='wrapperQuestAccepted_'],
 [class*='base_'] [class*='page_'] [class*='nowPlayingColumn_'] [class*='itemCard_']:not(:has([class*='voiceSectionIconWrapper_'])),
 [class*='base_'] [class*='page_'] [class*='nowPlayingColumn_'] [class*='itemCard_']:has([class*='voiceSectionIconWrapper_']) [class*='section_']:has([class*='activitySection_']),
@@ -6,5 +8,18 @@
 [class*='base_'] [class*='page_'] [class*='nowPlayingColumn_'] [class*='itemCard_'] [class*='headerFull_'] [class*='multipleIconWrapper_'],
 [class*='base_'] [class*='page_'] [class*='nowPlayingColumn_'] [class*='itemCard_'] [class*='headerFull_'] [class*='headerIcon_'],
 [class*='base_'] [class*='page_'] [class*='nowPlayingColumn_'] [class*='itemCard_'] [class*='headerFull_'] [class*='clickable_'] [class*='textContent_'] {
+  display: none !important;
+}
+
+/* -- NEW DISCORD TAGS -- */
+
+[class*='-base'] [class*='-page'] [class*='-nowPlayingColumn'] [class*='-itemCard'] [class*='-wrapperQuestAccepted'],
+[class*='-base'] [class*='-page'] [class*='-nowPlayingColumn'] [class*='-itemCard']:not(:has([class*='-voiceSectionIconWrapper'])),
+[class*='-base'] [class*='-page'] [class*='-nowPlayingColumn'] [class*='-itemCard']:has([class*='-voiceSectionIconWrapper']) [class*='-section']:has([class*='-activitySection']),
+[class*='-base'] [class*='-page'] [class*='-nowPlayingColumn'] [class*='-itemCard'] [class*='-section']:has([class*='-gameSection']),
+[class*='-base'] [class*='-page'] [class*='-nowPlayingColumn'] [class*='-itemCard'] [class*='-headerFull'] [class*='-textContent'] span,
+[class*='-base'] [class*='-page'] [class*='-nowPlayingColumn'] [class*='-itemCard'] [class*='-headerFull'] [class*='-multipleIconWrapper'],
+[class*='-base'] [class*='-page'] [class*='-nowPlayingColumn'] [class*='-itemCard'] [class*='-headerFull'] [class*='-headerIcon'],
+[class*='-base'] [class*='-page'] [class*='-nowPlayingColumn'] [class*='-itemCard'] [class*='-headerFull'] [class*='-clickable'] [class*='-textContent'] {
   display: none !important;
 }
