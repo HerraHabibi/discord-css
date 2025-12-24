@@ -1,4 +1,13 @@
+/* -- OLD DISCORD TAGS -- */
+
 [class*='base_'] [class*='page_'] [class*='membersWrap_'] [class*='membersGroup_']:has([class*='headerContainer_']),
 [class*='base_'] [class*='page_'] [class*='container_'] [class*='membersWrap_'] [class*='container_']:has([class*='infoSection_']) {
+  display: none !important;
+}
+
+/* -- NEW DISCORD TAGS -- */
+
+[class*='-base'] [class*='-page'] [class*='-membersWrap'] [class*='-membersGroup']:has([class*='-headerContainer']),
+[class*='-base'] [class*='-page'] [class*='-container'] [class*='-membersWrap'] [class*='-container']:has([class*='-infoSection']) {
   display: none !important;
 }
