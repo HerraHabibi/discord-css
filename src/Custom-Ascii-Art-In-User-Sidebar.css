@@ -1,0 +1,7 @@
+.user-profile-sidebar::after {
+  white-space: pre !important;
+  padding: 10px !important;
+  text-align: center !important;
+  color: var(--custom-user-sidebar-text-color) !important;
+  content: var(--custom-user-sidebar-ascii-text) !important;
+}

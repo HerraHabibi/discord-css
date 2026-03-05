@@ -161,3 +161,34 @@ Fixes the bug that makes your own camera look inverted, so you see it the way ot
 
   ![Fix Cam Inverted](https://i.imgur.com/LKTx3qP.png)
 </details>
+
+#### Custom Ascii Art In User Sidebar
+
+Adds custom ascii art in the user sidebar like a rat, a cat, or whatever ASCII art you want
+
+```css
+@import url('https://raw.githubusercontent.com/HerraHabibi/discord-snippets/refs/heads/main/src/Custom-Ascii-Art-In-User-Sidebar.css');
+```
+
+Add one of these below or create your own:
+
+```css
+:root {
+  --custom-user-sidebar-text-color: #fff;
+  --custom-user-sidebar-ascii-text: 
+                   "   (`-()_.-=-. \a"
+                     " /66  ,  ,  \\  \a"
+    "                =(o_/=//_(   /======` \a"
+                 "      ~''` ~''~~`";
+}
+```
+
+```css
+:root {
+  --custom-user-sidebar-text-color: #fff;
+  --custom-user-sidebar-ascii-text: 
+      "  ╱|、   \a"
+    "  (˚ˎ 。7  \a"
+      "  |、˜〵\  \a"
+    "    じしˍ,)ノ";
+}
