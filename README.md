@@ -177,8 +177,8 @@ Add one of these below or create your own:
   --custom-user-sidebar-text-color: #fff;
   --custom-user-sidebar-ascii-text: 
                    "   (`-()_.-=-. \a"
-                     " /66  ,  ,  \\  \a"
-    "                =(o_/=//_(   /======` \a"
+                 "    /66  ,  ,       \\ \a"
+    "               =(o_/=//_(   /======` \a"
                  "      ~''` ~''~~`";
 }
 ```
